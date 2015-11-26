@@ -1,0 +1,48 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="15dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtUsuario"
+        android:layout_marginTop="129dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/txtSenha"
+        android:layout_alignStart="@+id/txtSenha"
+        android:hint="Usuário" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/txtSenha"
+        android:layout_below="@+id/txtUsuario"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="77dp"
+        android:hint="Senha" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar"
+        android:id="@+id/btnEnviarLogin"
+        android:layout_below="@+id/txtSenha"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sair"
+        android:id="@+id/btnSairLogin"
+        android:layout_below="@+id/btnEnviarLogin"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
+    </ScrollView>

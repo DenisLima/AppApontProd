@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:baselineAligned="false">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="APONTAMENTO PRODUÇÃO"
+        android:background="@layout/lista_botoes"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:id="@+id/btnApontarProd" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="APONTAMENTO PARADA"
+        android:background="@layout/lista_botoes"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:id="@+id/btnApontarParada"
+        android:layout_below="@+id/btnApontarProd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SAIR"
+        android:background="@layout/lista_botoes"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:id="@+id/btnSairProd"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

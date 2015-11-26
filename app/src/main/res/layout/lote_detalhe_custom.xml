@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="15dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="C-140615"
+        android:id="@+id/txtLoteDetalhes"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#c1c1c1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ST907"
+        android:id="@+id/txtMaquinaDetalhes"
+        android:layout_below="@+id/txtLoteDetalhes"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#c1c1c1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="201000006"
+        android:id="@+id/txtItemDetalhes"
+        android:layout_below="@+id/txtMaquinaDetalhes"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#c1c1c1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="66154TR0"
+        android:id="@+id/txtFabricanteDetalhes"
+        android:layout_below="@+id/txtItemDetalhes"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="300"
+        android:id="@+id/txtQtdPlanDetalhes"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Qtd Plano: "
+        android:id="@+id/textView6"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/txtQtdPlanDetalhes"
+        android:layout_toStartOf="@+id/txtQtdPlanDetalhes"
+        android:textColor="#c1c1c1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="20"
+        android:id="@+id/txtQtdAdicDetalhes"
+        android:layout_below="@+id/txtQtdPlanDetalhes"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Qtd Adic.: "
+        android:id="@+id/textView8"
+        android:layout_below="@+id/txtLoteDetalhes"
+        android:layout_toLeftOf="@+id/txtQtdAdicDetalhes"
+        android:layout_toStartOf="@+id/txtQtdAdicDetalhes"
+        android:textColor="#c1c1c1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="285"
+        android:id="@+id/txtQtdAlimen"
+        android:layout_below="@+id/txtQtdAdicDetalhes"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Qtd Alimen.: "
+        android:id="@+id/textView10"
+        android:layout_below="@+id/textView8"
+        android:layout_toLeftOf="@+id/txtQtdAlimen"
+        android:layout_toStartOf="@+id/txtQtdAlimen"
+        android:textColor="#c1c1c1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="100"
+        android:id="@+id/txtQtdReal"
+        android:layout_below="@+id/txtQtdAlimen"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Qtd Real: "
+        android:id="@+id/textView13"
+        android:layout_below="@+id/txtQtdAlimen"
+        android:layout_toLeftOf="@+id/txtQtdReal"
+        android:layout_toStartOf="@+id/txtQtdReal"
+        android:textColor="#c1c1c1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/txtIdDetalhes"
+        android:layout_below="@+id/textView10"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>
